@@ -1,0 +1,23 @@
+{
+    "metadata": {
+        "name": "Agent Matching Configuration",
+        "description": "Agent Matching Configuration",
+        "tags": "agent, matching, config, change",
+        "library": "Agent Matching Configuration Widget",
+        "version": "1.0.0",
+        "date": "2022-12-29T10:44:05.741Z",
+        "id": "704c2acf-de7b-4df2-8177-64a8252007fe"
+    },
+    "configuration": {
+        "external": true,
+        "timeout": 5000,
+        "serie": true,
+        "name": "704c2acf-de7b-4df2-8177-64a8252007fe",
+        "element": "<agent-matching-config-widget></agent-matching-config-widget>",
+        "icon": "aoc-home",
+        "files": [
+            "bundle.js"
+        ],
+        "overrideUrl":"https://localhost:8443/"
+    }
+}
