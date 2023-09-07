@@ -109,7 +109,7 @@ After you make the changes as required by the widget you want to build, you can 
 
 If you've done everything correctly, It should look something like this (default without any changes).
 
-![Widget Demo](./agent_queues_attributes_admin_widget.mp4)
+![Widget Demo](./public/screenshot.png)
 
 
 ## Manual Hosting
