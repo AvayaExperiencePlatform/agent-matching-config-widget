@@ -1,7 +1,6 @@
 FROM node:12.18.3-alpine as build 
 WORKDIR /app
 COPY package.json package.json
-COPY package-lock.json package-lock.json
 RUN npm install --force
 COPY . .
 ENV NODE_ENV=production
