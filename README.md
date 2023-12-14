@@ -70,19 +70,16 @@ To build the widget `bundle.js` file, you need to
 - Navigate to `src/app/config.js`
 - Update the configuration in there to match your tenant, for example:
 
-
-  ```js
-        export default {
-            env: {
-                AXP_CLIENT_ID: "YOUR_AXP_CLIENT_ID",
-                AXP_PROXY_BASE_URL: "https://your_server_fqdn_running_axp-proxy-api:3001",
-                AXP_ACCOUNT_ID: "ABCDEF",
-                AXP_API_APP_KEY: "your-secret-api-app-key"
-            },
-        };
-    ```
-
-
+```js
+export default {
+    env: {
+        AXP_CLIENT_ID: "YOUR_AXP_CLIENT_ID",
+        AXP_PROXY_BASE_URL: "https://your_server_fqdn_running_axp-proxy-api:3001",
+        AXP_ACCOUNT_ID: "ABCDEF",
+        AXP_API_APP_KEY: "your-secret-api-app-key"
+    },
+};
+```
 - After updating that file, you can now run `yarn install` to install the libraries and package dependencies.
 - Run `npm run prod` to build the bundle.js file, it will be in the build/ folder.
 
