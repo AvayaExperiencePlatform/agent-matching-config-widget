@@ -7,11 +7,11 @@
 
 
 This custom widget gives Agents/Supervisors the functionality to:
- - Change their active state, whether to `Go Ready` or `Go Not Ready` while giving a `reason code`.
- - Update their matching configuration, whether updating their `Queues` or their `Attributes`
-   - This is available for _BOTH_ `Agents and Supervisors`
- - Update their teams' (Agents they are supervising) matching configuration, whether updating their `Queues` or their `Attributes`.
-   - This is _ONLY_ available for `Supervisors`
+- Change their active state, whether to `Go Ready` or `Go Not Ready` while giving a `reason code`.
+- Update their matching configuration, whether updating their `Queues` or their `Attributes`
+    - This is available for _BOTH_ `Agents and Supervisors`
+- Update their teams' (Agents they are supervising) matching configuration, whether updating their `Queues` or their `Attributes`.
+    - This is _ONLY_ available for `Supervisors`
 
 
 ## Technical Details
