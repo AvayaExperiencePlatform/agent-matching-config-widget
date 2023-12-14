@@ -1,5 +1,3 @@
-
-
 # Queues and Attributes Admin Widget
 
 
@@ -50,6 +48,7 @@ The widget is composed of two components, the widget itself (`bundle.js`) file a
 
 
 As a pre-requisite you need to acquire the AXP Client Credentials `(CLIENT_ID and CLIENT_SECRET)` to be able to use the widget. You will need a `client_credentials` grant type as well.
+Along with the AXP Client Credentials, you also need the AXP API Application KEY `(AXP_API_APP_KEY)`
 
 
 You will also need to have `Node.js` installed on `v18.0+`
@@ -58,7 +57,7 @@ You will also need to have `Node.js` installed on `v18.0+`
 ### Running the backend component
 
 
-Refer to the AXP Proxy API build & deploy guide available [```here```](https://GITHUBLINKTOAXPPROXYREPO)
+Refer to the AXP Proxy API build & deploy guide available [```here```](https://github.com/AvayaExperiencePlatform/axp-api-proxy)
 
 
 ### Building the widget bundle.js file for your tenant
@@ -70,12 +69,15 @@ The bundle.js file is built out of the react-app `(agent-matching-config-widget)
 To build the widget `bundle.js` file, you need to
 - Navigate to `src/app/config.js`
 - Update the configuration in there to match your tenant, for example:
-  - ```js
+
+
+  ```js
         export default {
             env: {
                 AXP_CLIENT_ID: "YOUR_AXP_CLIENT_ID",
                 AXP_PROXY_BASE_URL: "https://your_server_fqdn_running_axp-proxy-api:3001",
-                AXP_ACCOUNT_ID: "ABCDEF",
+                AXP_ACCOUNT_ID: "ABCDEF",
+                AXP_API_APP_KEY: "your-secret-api-app-key"
             },
         };
     ```
