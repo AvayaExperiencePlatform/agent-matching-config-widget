@@ -12,6 +12,12 @@ This custom widget gives Agents/Supervisors the functionality to:
     - This is _ONLY_ available for `Supervisors`
 
 
+## :warning: **Disclaimer**
+
+> :bulb: this sample application is provided **for demonstration purposes only** and are not intended for production use. We assume no responsibility for any issues arising from its use.
+
+---
+
 ## Technical Details
 
 
